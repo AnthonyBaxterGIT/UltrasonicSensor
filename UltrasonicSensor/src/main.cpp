@@ -7,9 +7,9 @@ int led = 7;
 
 void setup() {
   Serial.begin(9600); 
-   pinMode(led, OUTPUT);
-   pinMode(trigPin, OUTPUT);
-   pinMode(echoPin, INPUT);
+  pinMode(led, OUTPUT);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
 }
 
 void loop() {
